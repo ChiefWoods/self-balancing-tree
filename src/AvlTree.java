@@ -117,6 +117,8 @@ public class AvlTree {
 					} else {
 						targetParent.setRight(temp);
 					}
+				} else {
+					this.setRoot(temp);
 				}
 				temp.setLeft(target.getLeft());
 				temp.setRight(target.getRight());
